@@ -8,7 +8,7 @@ function PokemonSelect({ add, pokemon = pokemonList }) {
   const handleChange = evt => {
     setPokeIdx(evt.target.value);
   };
-
+  
   return (
     <div>
       <select onChange={handleChange}>
